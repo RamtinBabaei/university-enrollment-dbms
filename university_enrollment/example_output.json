@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "student_number": "S1001",
+      "full_name": "Ava Rahimi",
+      "email": "ava@example.com"
+    },
+    {
+      "student_number": "S1002",
+      "full_name": "Ramin Moradi",
+      "email": "ramin@example.com"
+    }
+  ],
+  "courses": [
+    {
+      "code": "CS101",
+      "title": "Introduction to Programming",
+      "credits": 3
+    },
+    {
+      "code": "CS202",
+      "title": "Database Systems",
+      "credits": 3
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "code": "CS101",
+      "title": "Introduction to Programming",
+      "term": "2026-Fall",
+      "section_number": 1,
+      "instructor": "Dr. Farahani",
+      "capacity": 2,
+      "enrolled": 2,
+      "seats_left": 0
+    },
+    {
+      "id": 2,
+      "code": "CS202",
+      "title": "Database Systems",
+      "term": "2026-Fall",
+      "section_number": 1,
+      "instructor": "Dr. Azadi",
+      "capacity": 1,
+      "enrolled": 1,
+      "seats_left": 0
+    }
+  ],
+  "transcript_S1001": {
+    "student": {
+      "student_number": "S1001",
+      "full_name": "Ava Rahimi"
+    },
+    "courses": [
+      {
+        "code": "CS101",
+        "title": "Introduction to Programming",
+        "credits": 3,
+        "term": "2026-Fall",
+        "section_number": 1,
+        "grade": 91.0
+      },
+      {
+        "code": "CS202",
+        "title": "Database Systems",
+        "credits": 3,
+        "term": "2026-Fall",
+        "section_number": 1,
+        "grade": null
+      }
+    ],
+    "graded_credits": 3,
+    "weighted_average_100": 91.0
+  }
+}
